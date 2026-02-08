@@ -1,4 +1,4 @@
-# Social Media Manager Agent 🤖
+# Social Media Manager Agent 
 
 An AI-powered social media manager that helps creators plan, write, and analyze their content.
 

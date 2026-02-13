@@ -1,28 +1,144 @@
-# Social Media Manager Agent 
+# BLOOMELLA
+AI-Powered Social Media Content Generator
 
-An AI-powered social media manager that helps creators plan, write, and analyze their content.
+# Built as part of Intel® Unnati Industrial Training & Grand Challenge
 
-## What this project does
-This AI agent assists with:
-- Content planning & post ideas
-- Copywriting (captions, hooks)
-- Hashtag suggestions
-- Weekly / monthly content calendars
-- Basic analytics insights (what works & what doesn’t)
+# Project Overview
 
-## Target Platforms
-- Instagram
-- LinkedIn
+BLOOMELLA is an AI-powered social media content assistant that helps creators generate:
 
-## Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: JavaScript (Node.js)
-- AI: LLM-based text generation
+Viral reel ideas
 
-## Features (MVP)
-- Generate post ideas based on niche
-- Write captions & hashtags
-- Create a weekly content calendar
+Captions
 
-## Status
--MVP under development
+Hooks
+
+CTAs
+
+Structured content plans
+
+The platform allows users to select:
+
+Platform (Instagram / YouTube.)
+
+Niche
+
+Tone
+
+Custom Prompt
+
+And instantly generates structured social media content.
+
+# Problem Statement
+
+Many student creators and small businesses struggle with:
+
+Consistent content ideas
+
+Structuring posts properly
+
+Writing engaging hooks
+
+Maintaining brand tone
+
+BLOOMELLA simplifies content creation using AI-based generation.
+
+# Tech Stack
+# Frontend
+
+React (Vite)
+
+Tailwind CSS
+
+Custom Pixel UI Design
+
+# Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+REST APIs
+
+AI Layer
+
+Mock AI Generator (Structured Content Engine)
+
+OpenRouter Integration (Optional – if API credits available)
+
+# Platform Customization
+
+Select platform
+
+Select niche
+
+Select tone
+
+Chat History Sidebar
+
+# Mock AI Engine
+
+Generates realistic AI responses including:
+
+Hook
+
+Main content structure
+
+CTA
+
+Formatting
+
+Calendar Page (Mock)
+
+Weekly content planning layout
+
+Placeholder for future AI scheduling
+
+Analytics Page (In Progress)
+
+Placeholder dashboard
+
+Future engagement insights feature
+
+# Project Structure
+
+socialmediaai/
+│
+├── backend/
+│   ├── config/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│
+└── README.md
+
+# How to Run Locally
+
+# Backend Setup
+cd backend
+npm install
+node server.js
+
+
+Server runs on:
+
+http://localhost:5000
+
+# Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on:
+
+http://localhost:5173

@@ -11,6 +11,12 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "@anthropic-ai/sdk": "^0.74.0",
+    "axios": "^1.13.5",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2",
+    "mongoose": "^9.2.1",
+    "openai": "^6.21.0"
   }
 }

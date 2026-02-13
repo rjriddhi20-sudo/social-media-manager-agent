@@ -105,21 +105,22 @@ Future engagement insights feature
 # Project Structure
 
 socialmediaai/
-│
 ├── backend/
-│   ├── config/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── server.js
+│ ├── config/
+│ ├── models/
+│ ├── routes/
+│ ├── services/
+│ └── server.js
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.jsx
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.jsx
+│ └── package.json
 │
-└── README.md
+├── README.md
+└── .gitignore
 
 # How to Run Locally
 

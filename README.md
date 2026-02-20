@@ -43,21 +43,13 @@ Modern UI component structure
 
 ## Key Features
 
- AI Content Generation
- Tone & Niche Customization
- Platform Selector (Instagram / LinkedIn / YouTube)
- Chat History Management
- Monthly Calendar Planner
- Event Integration Inside Calendar Dates
- Analytics Dashboard (UI Structure)
-
-
-## Project Structure
-
-
-Bloomella-FullProject/
- ├── socialmediaai/      (backend)
- ├── bloomella-frontend/     (Developed Separately)
+AI Content Generation.
+Tone & Niche Customization.
+Platform Selector (Instagram / LinkedIn / YouTube).
+Chat History Management.
+Monthly Calendar Planner.
+Event Integration Inside Calendar Dates.
+Analytics Dashboard (UI Structure).
 
 
 ## How To Run The Project Locally

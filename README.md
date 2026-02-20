@@ -1,145 +1,107 @@
-# BLOOMELLA
-AI-Powered Social Media Content Generator
+## BLOOMELLA 🌸
+AI-Powered Social Media Content Planner
 
-# Built as part of Intel® Unnati Industrial Training & Grand Challenge
+Built as part of Intel® Unnati Industrial Training & Grand Challenge
 
-# Project Overview
+## Project Overview
 
-BLOOMELLA is an AI-powered social media content assistant that helps creators generate:
+Bloomella is a AI-powered social media assistant designed to help creators, students, and businesses:
 
-Viral reel ideas
+Generate AI-based social media content
 
-Captions
+Customize tone and niche
 
-Hooks
+Maintain structured chat history
 
-CTAs
+Plan monthly content calendars
 
-Structured content plans
+Add events directly inside calendar date cells
 
-The platform allows users to select:
+View analytics interface (UI implemented)
 
-Platform (Instagram / YouTube.)
+This project demonstrates full-stack architecture with AI integration.
 
-Niche
+## Tech Stack
 
-Tone
+## Backend
 
-Custom Prompt
+FastAPI
 
-And instantly generates structured social media content.
+Python
 
-# Problem Statement
+OpenAI API
 
-Many student creators and small businesses struggle with:
+Uvicorn
 
-Consistent content ideas
-
-Structuring posts properly
-
-Writing engaging hooks
-
-Maintaining brand tone
-
-BLOOMELLA simplifies content creation using AI-based generation.
-
-# Tech Stack
-# Frontend
+## Frontend (Developed Separately)
 
 React (Vite)
 
-Tailwind CSS
+CSS
 
-Custom Pixel UI Design
+Modern UI component structure
 
-# Backend
+## Key Features
 
-Node.js
+ AI Content Generation
+ Tone & Niche Customization
+ Platform Selector (Instagram / LinkedIn / YouTube)
+ Chat History Management
+ Monthly Calendar Planner
+ Event Integration Inside Calendar Dates
+ Analytics Dashboard (UI Structure)
 
-Express.js
 
-MongoDB
+## Project Structure
 
-REST APIs
 
-AI Layer
+Bloomella-FullProject/
+ ├── socialmediaai/      (backend)
+ ├── bloomella-frontend/     (Developed Separately)
 
-Mock AI Generator (Structured Content Engine)
 
-OpenRouter Integration (Optional – if API credits available)
+## How To Run The Project Locally
 
-# Platform Customization
+## Clone the Repository
+git clone https://github.com/rjriddhi20-sudo/social-media-manager-agent.git
 
-Select platform
+cd social-media-manager-agent
 
-Select niche
-
-Select tone
-
-Chat History Sidebar
-
-# Mock AI Engine
-
-Generates realistic AI responses including:
-
-Hook
-
-Main content structure
-
-CTA
-
-Formatting
-
-Calendar Page (Mock)
-
-Weekly content planning layout
-
-Placeholder for future AI scheduling
-
-Analytics Page (In Progress)
-
-Placeholder dashboard
-
-Future engagement insights feature
-
-# Project Structure
-
-socialmediaai/
-├── backend/
-│ ├── config/
-│ ├── models/
-│ ├── routes/
-│ ├── services/
-│ └── server.js
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── App.jsx
-│ └── package.json
-│
-├── README.md
-└── .gitignore
-
-# How to Run Locally
-
-# Backend Setup
+## Backend Setup
 cd backend
-npm install
-node server.js
+pip install -r requirements.txt
+uvicorn main:app --reload
 
+Backend will run at:
 
-Server runs on:
+http://127.0.0.1:8000
 
-http://localhost:5000
+Swagger Docs available at:
 
-# Frontend Setup
+http://127.0.0.1:8000/docs
+
+## Frontend Setup (If Available Locally)
 cd frontend
 npm install
 npm run dev
 
-
-Frontend runs on:
+Frontend runs at:
 
 http://localhost:5173
+
+## Future Improvements
+
+Cloud Deployment
+
+Database Integration
+
+Advanced Analytics Logic
+
+## About The Program
+
+This project was developed as part of:
+
+Intel® Unnati Industrial Training & Grand Challenge
+
+Focused on building real-world, AI-driven full-stack solutions.
+
